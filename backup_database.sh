@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ask the user for the MySQL user
-read -p "Please enter your MySQL user: " mysql_user
+read -e -p "Please enter your MySQL user: " mysql_user
 
 # Ask the user for the MySQL password
 read -s -p "Please enter your MySQL password: " mysql_password
